@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: vege503/hello-app:latest
+        image: vege503/hello-app@sha256:4378a882deed1587fb405bff080811771c92af16db3fae3b3e4237a7b45e27f8
         ports:
         - containerPort: 80
       imagePullSecrets:
